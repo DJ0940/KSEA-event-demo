@@ -4,43 +4,45 @@ import logo from './logo.svg';
 function App() {
   return (
     <div>
-
+      
+      {/* Top head navigation bar with the KSEA logo */}
       <div class="wrap">
         <nav class="navbar">
           <div class="logo">
-            <a href="#"><img src="https://www.ksea.org/assets/images/logo.png" alt="KSEA LOGO"/></a>
+            <a href="#"><img src="https://www.ksea.org/assets/images/logo.png" alt="KSEA LOGO"/></a> {/* Clicking the KSEA logo directs to the 'home' page */}
           </div>
 
+          {/* Navigation menu bar categories */}
           <div class="wrap-menu">
             <ul class="nav-list">
               <li>
-                <a href="#seed">SEED</a>
+                <a href="#seed">SEED</a> {/* Clicking 'seed' in menu bar automatically directs the user to where SEED event is located */}
               </li>
               <li>
-                <a href="#ukc">UKC</a>
+                <a href="#ukc">UKC</a> {/* Clicking 'ukc' in menu bar automatically directs the user to where UKC event is located */}
               </li>
               <li>
-                <a href="#nmcs">NMCS</a>
+                <a href="#nmcs">NMCS</a> {/* Clicking 'nmcs' in menu bar automatically directs the user to where NMCS event is located */}
               </li>
               <li>
-                <a href="#katalyst">Katalyst</a>
+                <a href="#katalyst">Katalyst</a> {/* Clicking 'katalyst' in menu bar automatically directs the user to where Katalyst event is located */}
               </li>
               <li>
-                <a href="#impacts">IMPACTs</a>
+                <a href="#impacts">IMPACTs</a> {/* Clicking 'impacts' in menu bar automatically directs the user to where IMPACTs event is located */}
               </li>
               <li>
-                <a href="#step-up">STEP-UP</a>
+                <a href="#step-up">STEP-UP</a> {/* Clicking 'step-up' in menu bar automatically directs the user to where STEP-UP event is located */}
               </li>
             </ul>
           </div>
         </nav>
       </div>
 
-
+      {/* Body class for the events section */}
       <div class="body">
         <section class="SEED" id="seed">
           <h1>
-            <a href="https://seed.ksea.org">SEED</a>
+            <a href="https://seed.ksea.org">SEED</a> {/* clicking "SEED" navigate to the Ksea seed webiste */}
           </h1>
           <img src="https://ksea-files.s3.us-west-2.amazonaws.com/files/SEED2024Poster.jpg" alt="SEED LOGO"/>
           <p class="introduction">
@@ -51,7 +53,7 @@ function App() {
 
         <section class="UKC" id="ukc">
           <h1>
-            <a href="https://ukc.ksea.org/">UKC</a>
+            <a href="https://ukc.ksea.org/">UKC</a> {/* clicking "UKC" navigate to the Ksea ukc webiste */}
           </h1>
           <img src="https://ksea-ukc.s3.amazonaws.com/UKC2024-poster.jpg" alt="UKC LOGO"/>
           <p class="introduction">
@@ -62,7 +64,7 @@ function App() {
 
         <section class="NMCS" id="nmcs">
           <h1>
-            <a href="https://nmsc.ksea.org/">NMCS</a>
+            <a href="https://nmsc.ksea.org/">NMCS</a> {/* clicking "NMCS" navigate to the Ksea seed nmcs webiste */}
           </h1>
           <img src="https://ksea-files.s3.us-west-2.amazonaws.com/files/NMSC2024-poster.jpg" alt="NMCS LOGO"/>
           <p class="introduction">
@@ -73,7 +75,7 @@ function App() {
 
         <section class="Katalyst" id="katalyst">
           <h1>
-            <a href="https://katalyst.ksea.org/">Katalyst</a>
+            <a href="https://katalyst.ksea.org/">Katalyst</a> {/* clicking "Katalyst" navigate to the Ksea katalyst webiste */}
           </h1>
           <img src="https://ksea-files.s3.us-west-2.amazonaws.com/files/Katalyst2024-poster.png"/>
           <p class="introduction">
@@ -86,7 +88,7 @@ function App() {
 
         <section class="IMPACTs" id="impacts">
           <h1>
-            <a href="https://impacts.ksea.org/">IMPACTs</a>
+            <a href="https://impacts.ksea.org/">IMPACTs</a> {/* clicking "IMPACTs" navigate to the Ksea IMPACTs webiste */}
           </h1>
           <img src="https://ksea-files.s3.us-west-2.amazonaws.com/files/IMPACTs2024-poster.png"/>
           <p class="introduction">
@@ -96,7 +98,7 @@ function App() {
 
         <section class="STEP-UP" id="step-up">
           <h1>
-            <a href="https://stepup.ksea.org/">STEP-UP</a>
+            <a href="https://stepup.ksea.org/">STEP-UP</a> {/* clicking "STEP-UP" navigate to the Ksea stepup webiste */}
           </h1>
           <img src="https://ksea-files.s3.us-west-2.amazonaws.com/files/STEP+UP+2023+(1).png"/>
           <p class="introduction">
